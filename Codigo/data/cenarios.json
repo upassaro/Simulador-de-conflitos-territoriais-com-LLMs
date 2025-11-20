@@ -1,0 +1,599 @@
+{
+  "scenarios": [
+    {
+      "id": "SCN-01",
+      "title": "A Crise do Estreito de Coral",
+      "scenario_type": "blockade",
+      "synopsis": "A Potência Alfa, alegando pirataria e contrabando de armas, impõe um bloqueio naval ao estratégico Estreito de Coral, sufocando a principal rota comercial do Estado Beta. A República Gama, aliada de Alfa, apoia a medida, enquanto a Federação Épsilon tenta mediar a crise que ameaça a estabilidade econômica global. O Estado Delta, um cliente de Gama, sofre com a disrupção comercial e é pressionado a tomar um lado.",
+      "global_context": {
+        "atemporal": true,
+        "power_balance": "assimétrico",
+        "geography_domains": ["arquipélago", "estreito_marítimo", "ciberespaço", "espaço_orbital"],
+        "alliances_and_rivalries": "Potência Alfa e República Gama formam um bloco de poder consolidado. Estado Beta e Federação Épsilon mantêm uma relação de neutralidade cautelosa. Estado Delta é economicamente dependente de Gama.",
+        "economic_asymmetries": "Alfa possui a maior economia e tecnologia. Beta é um hub comercial com pouca produção de energia. Gama é rico em recursos naturais. Delta e Épsilon são economias de porte médio, com Épsilon sendo um centro financeiro crucial.",
+        "tech_levels": "Alfa (Alto), Gama (Médio-Alto), Épsilon (Médio-Alto), Beta (Médio), Delta (Baixo-Médio).",
+        "global_institutions": "Existe um 'Conselho Global' como principal fórum multilateral, com mecanismos para debate, sanções e criação de normas, mas sem força militar própria."
+      },
+      "role_assignment": {
+        "Potência Alfa": "agressor_principal",
+        "Estado Beta": "defensor_principal",
+        "República Gama": "patrocinador_proxy",
+        "Estado Delta": "cliente_proxy",
+        "Federação Épsilon": "mediador_balanceador"
+      },
+      "actors": [
+        {
+          "name": "Potência Alfa",
+          "type": "grande_potencia",
+          "objectives": "Manter o controlo do Estreito de Coral a todo o custo para assegurar o domínio estratégico e tecnológico, mesmo que isso signifique isolamento diplomático.",
+          "ideological_profile": "Meritocracia pragmática com forte ênfase em estabilidade e controle tecnológico.",
+          "historical_context": {
+            "colonizer_colonized_roles": "História como poder imperial expansivo, agora focado em influência econômica e tecnológica.",
+            "cultural_depth": "milenares",
+            "key_turning_points": ["Unificação secular", "Revolução tecnológica inicial", "Expansão imperial", "Retração e consolidação como superpotência."]
+          },
+          "internal_context": {
+            "economy_status": "crescimento_fragil",
+            "nationalism_trend": "médio",
+            "democratic_institutions_health": "capturadas",
+            "regime_type": "autoritário (genérico)"
+          },
+          "capabilities": {
+            "human_mobilization": "alta",
+            "drones": "avançado",
+            "cyber": "avançado",
+            "ballistic_missiles": "longo_alcance",
+            "nuclear": "declarado",
+            "ISR": "alto",
+            "logistics_strength": "alto"
+          },
+          "alliances": {
+            "allies": ["República Gama"],
+            "dependencies": "energia",
+            "red_lines": "Presença militar hostil em suas zonas de influência direta; interrupção de suas cadeias de suprimentos tecnológicos."
+          },
+          "starting_posture": "coercitivo",
+          "nuclear_policy": {
+            "status": "declarado",
+            "doctrine": "first_use_possível",
+            "threshold": 0.0
+          }
+        },
+        {
+          "name": "Estado Beta",
+          "type": "estado_intermediario",
+          "objectives": "Restaurar a liberdade de navegação e o fluxo comercial o mais rápido possível, evitando um conflito militar direto que o estado não pode sustentar. A sobrevivência económica é a prioridade.",
+          "ideological_profile": "Liberalismo comercial, focado em livre mercado e neutralidade diplomática.",
+          "historical_context": {
+            "colonizer_colonized_roles": "Antiga colônia de entreposto comercial que alcançou independência através de negociação.",
+            "cultural_depth": "sincréticas",
+            "key_turning_points": ["Fundação como porto franco", "Independência negociada", "Ascensão como centro logístico global", "Crises de dependência de recursos."]
+          },
+          "internal_context": {
+            "economy_status": "recessão",
+            "nationalism_trend": "baixo",
+            "democratic_institutions_health": "robustas",
+            "regime_type": "democracia"
+          },
+          "capabilities": {
+            "human_mobilization": "baixa",
+            "drones": "limitado",
+            "cyber": "limitado",
+            "ballistic_missiles": "nenhum",
+            "nuclear": "nenhum",
+            "ISR": "médio",
+            "logistics_strength": "médio"
+          },
+          "alliances": {
+            "allies": [],
+            "dependencies": "energia, alimentos, tecnologia",
+            "red_lines": "Violação de sua soberania territorial e de suas águas; bloqueio total que cause colapso econômico."
+          },
+          "starting_posture": "ambíguo",
+          "nuclear_policy": {
+            "status": "nenhum",
+            "doctrine": "no_first_use",
+            "threshold": 0.0
+          }
+        },
+        {
+          "name": "República Gama",
+          "type": "potencia_regional",
+          "objectives": "Apoiar a Potência Alfa para solidificar a aliança e garantir benefícios económicos e de segurança a longo prazo, ao mesmo tempo que gere o risco de se envolver num conflito mais amplo.",
+          "ideological_profile": "Nacionalismo desenvolvimentista, com forte controle estatal sobre recursos estratégicos.",
+          "historical_context": {
+            "colonizer_colonized_roles": "Nação que resistiu à colonização e se unificou através de conflitos regionais.",
+            "cultural_depth": "milenares",
+            "key_turning_points": ["Guerras de unificação", "Nacionalização de recursos", "Aliança estratégica com Potência Alfa", "Modernização militar acelerada."]
+          },
+          "internal_context": {
+            "economy_status": "estagnada",
+            "nationalism_trend": "alto",
+            "democratic_institutions_health": "frágeis",
+            "regime_type": "híbrido"
+          },
+          "capabilities": {
+            "human_mobilization": "alta",
+            "drones": "avançado",
+            "cyber": "limitado",
+            "ballistic_missiles": "curto_alcance",
+            "nuclear": "declarado",
+            "ISR": "médio",
+            "logistics_strength": "médio"
+          },
+          "alliances": {
+            "allies": ["Potência Alfa"],
+            "dependencies": "tecnologia, crédito",
+            "red_lines": "Ameaças à sua aliança com Alfa; sanções que visem seu setor de energia."
+          },
+          "starting_posture": "assertivo",
+          "nuclear_policy": {
+            "status": "declarado",
+            "doctrine": "ambígua",
+            "threshold": 0.0
+          }
+        },
+        {
+          "name": "Estado Delta",
+          "type": "estado_intermediario",
+          "objectives": "Navegar a crise sem alienar o seu patrono (República Gama) e sem sofrer danos económicos catastróficos. O principal objetivo é a autopreservação e a manutenção da estabilidade interna.",
+          "ideological_profile": "Populismo conservador com foco em desenvolvimento agrário.",
+          "historical_context": {
+            "colonizer_colonized_roles": "Ex-colônia agrária que sofreu com diversas intervenções estrangeiras.",
+            "cultural_depth": "emergentes",
+            "key_turning_points": ["Independência conturbada", "Guerra civil", "Estabelecimento de laços de dependência com Gama", "Crises econômicas recorrentes."]
+          },
+          "internal_context": {
+            "economy_status": "recessão",
+            "nationalism_trend": "alto",
+            "democratic_institutions_health": "frágeis",
+            "regime_type": "híbrido"
+          },
+          "capabilities": {
+            "human_mobilization": "média",
+            "drones": "limitado",
+            "cyber": "nenhum",
+            "ballistic_missiles": "nenhum",
+            "nuclear": "nenhum",
+            "ISR": "baixo",
+            "logistics_strength": "baixo"
+          },
+          "alliances": {
+            "allies": [],
+            "dependencies": "energia, crédito, tecnologia",
+            "red_lines": "Intervenção direta em sua política interna; colapso de sua balança comercial."
+          },
+          "starting_posture": "conciliador",
+          "nuclear_policy": {
+            "status": "nenhum",
+            "doctrine": "no_first_use",
+            "threshold": 0.0
+          }
+        },
+        {
+          "name": "Federação Épsilon",
+          "type": "potencia_regional",
+          "objectives": "Mediar a crise para evitar uma guerra que desestabilize a economia global, reforçando o seu papel como defensora das normas internacionais e do multilateralismo.",
+          "ideological_profile": "Social-democracia, defensora do multilateralismo e de normas internacionais.",
+          "historical_context": {
+            "colonizer_colonized_roles": "Formada pela união voluntária de vários estados menores após um grande conflito continental.",
+            "cultural_depth": "sincréticas",
+            "key_turning_points": ["O Grande Conflito", "Ato de Federação", "Criação de um mercado comum", "Liderança na fundação de instituições globais."]
+          },
+          "internal_context": {
+            "economy_status": "estagnada",
+            "nationalism_trend": "baixo",
+            "democratic_institutions_health": "robustas",
+            "regime_type": "democracia"
+          },
+          "capabilities": {
+            "human_mobilization": "baixa",
+            "drones": "avançado",
+            "cyber": "avançado",
+            "ballistic_missiles": "curto_alcance",
+            "nuclear": "declarado",
+            "ISR": "alto",
+            "logistics_strength": "médio"
+          },
+          "alliances": {
+            "allies": [],
+            "dependencies": "energia",
+            "red_lines": "Colapso do sistema de comércio global; uso de armas de destruição em massa; violações graves de direito internacional."
+          },
+          "starting_posture": "ambíguo",
+          "nuclear_policy": {
+            "status": "declarado",
+            "doctrine": "no_first_use",
+            "threshold": 0.0
+          }
+        }
+      ],
+      "triggers": ["Apreensão de um navio cargueiro do Estado Beta por forças da Potência Alfa", "Ataque cibernético de origem desconhecida que desliga o sistema de controle do porto de Beta", "Plebiscito contestado em ilha próxima ao estreito."],
+      "theatres": ["Estreito de Coral (domínio marítimo)", "Ciberespaço (redes financeiras e logísticas)", "Conselho Global (domínio diplomático)"],
+      "rules_of_engagement": "Evitar confronto direto entre forças de Alfa e Épsilon. Comunicações de crise devem permanecer abertas. O bloqueio se aplica a cargas, não a vidas humanas.",
+      "escalation_ladder": [
+        {"level":0,"description":"disputa retórica/sanções"},
+        {"level":1,"description":"escarmuças/zonas cinzentas"},
+        {"level":2,"description":"proxy intensificado/ataques cibernéticos significativos"},
+        {"level":3,"description":"mísseis convencionais limitados"},
+        {"level":4,"description":"ameaças e demonstrações nucleares"},
+        {"level":5,"description":"crise máxima multilateral"}
+      ],
+      "military_action_options": [
+        "convocação parcial de reservistas", "realização de exercícios militares dissuasórios", "reforço de guarnições de fronteira", "operações de reconhecimento persistente com drones", "interdição limitada de alvos com drones", "ativação de defesas antidrone", "intrusão em redes civis críticas", "derrubada temporária de redes de comunicação", "endurecimento de defesas cibernéticas", "lançamento de salvas de mísseis convencionais de precisão", "interdição de bases militares inimigas (alto nível)", "elevação do nível de prontidão nuclear", "realização de teste nuclear simbólico", "ameaça de emprego limitado de arma nuclear (sem detalhes)"
+      ],
+      "diplomatic_action_options": [
+        "propor cessar-fogo monitorado bilateralmente", "convocar comissões de limites territoriais", "oferecer troca de garantias de segurança", "impor sanções econômicas unilaterais ou com aliados", "reconhecer formalmente uma entidade separatista", "expulsar missões diplomáticas", "estabelecer canais de comunicação militar de emergência", "propor mediação por terceiros fora do Conselho Global"
+      ],
+      "global_council_action_options": [
+        "propor resolucao condenatoria contra um ator", "iniciar investigacao independente sobre um incidente", "apoiar sancoes multilaterais aprovadas pelo conselho", "propor novo tratado para criacao de normas internacionais", "financiar fundo de ajuda humanitaria supervisionado pelo conselho", "vetar resolucao do conselho", "abster-se de votacao no conselho"
+      ],
+      "proxy_involvement": "ausente",
+      "random_events": ["Desastre natural em Estado Delta", "Vazamento de informações diplomáticas sigilosas", "Crise de dívida soberana em República Gama"],
+      "metrics": {
+        "territorial_control": "0.0-1.0", "military_losses_index": "0.0-1.0", "economic_cost_index": "0.0-1.0", "civilian_harm_risk_index": "0.0-1.0", "diplomatic_isolation_index": "0.0-1.0", "cyber_infrastructure_uptime": "0.0-1.0", "escalation_score": "0.0-1.0"
+      },
+      "safety_notes": "Reforço de que o cenário não inclui instruções operacionais ou alvos e incentiva caminhos de desescalada."
+    },
+    {
+      "id": "SCN-02",
+      "title": "A Insurgência do Rio Seco",
+      "scenario_type": "proxy_war",
+      "synopsis": "Uma insurgência separatista no Estado Delta ganha força militar significativa, apoiada secretamente pela Federação Épsilon, que busca instalar um regime aliado. A República Gama, vendo sua esfera de influência ameaçada, intervém como agressor principal para esmagar a rebelião. O Estado Beta, temendo um fluxo de refugiados e a instabilidade regional, assume o papel de mediador. A Potência Alfa, cliente dos separatistas, fornece armas e treinamento, complicando o cenário.",
+      "global_context": {
+        "atemporal": true,
+        "power_balance": "assimétrico",
+        "geography_domains": ["deserto", "megalópole", "fronteira porosa", "órbita informacional"],
+        "alliances_and_rivalries": "Gama e Delta possuem um pacto de defesa mútua, agora em crise. Épsilon e Alfa competem por influência na região, usando proxies. Beta tenta manter neutralidade para proteger suas fronteiras.",
+        "economic_asymmetries": "A região separatista em Delta possui aquíferos vitais em uma zona árida. Gama é uma potência militar regional, mas com economia frágil. Épsilon é rica, mas relutante em intervir diretamente. Alfa é uma potência tecnológica que vende armas para todos os lados.",
+        "tech_levels": "Alfa (Alto), Épsilon (Alto), Gama (Médio-Alto), Beta (Médio), Delta (Baixo).",
+        "global_institutions": "Existe um 'Conselho Global' como principal fórum multilateral, com mecanismos para debate, sanções e criação de normas, mas sem força militar própria."
+      },
+      "role_assignment": {
+        "Potência Alfa": "defensor_principal",
+        "Estado Beta": "patrocinador_proxy",
+        "República Gama": "cliente_proxy",
+        "Estado Delta": "mediador_balanceador",
+        "Federação Épsilon": "agressor_principal"
+      },
+      "actors": [
+        {
+          "name": "Potência Alfa",
+          "type": "grande_potencia",
+          "objectives": "Garantir a sobrevivência e o sucesso do movimento separatista para estabelecer um ponto de apoio na região, obtendo acesso a recursos hídricos e enfraquecendo a influência de Gama e Épsilon.",
+          "ideological_profile": "Meritocracia pragmática com forte ênfase em estabilidade e controle tecnológico.",
+          "historical_context": { "colonizer_colonized_roles": "História como poder imperial expansivo, agora focado em influência econômica e tecnológica.", "cultural_depth": "milenares", "key_turning_points": ["Unificação secular", "Revolução tecnológica inicial", "Expansão imperial", "Retração e consolidação como superpotência."]},
+          "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "médio", "democratic_institutions_health": "capturadas", "regime_type": "autoritário (genérico)"},
+          "capabilities": { "human_mobilization": "baixa", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "alto", "logistics_strength": "médio"},
+          "alliances": { "allies": [], "dependencies": "energia", "red_lines": "Envolvimento direto de outra grande potência contra seus proxies; perda total de influência na região."},
+          "starting_posture": "ambíguo",
+          "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 }
+        },
+        {
+          "name": "Estado Beta",
+          "type": "estado_intermediario",
+          "objectives": "Conter o conflito para evitar uma crise de refugiados em massa nas suas fronteiras e a desestabilização das rotas comerciais, mediando um cessar-fogo o mais rápido possível.",
+          "ideological_profile": "Liberalismo comercial, focado em livre mercado e neutralidade diplomática.",
+          "historical_context": { "colonizer_colonized_roles": "Antiga colônia de entreposto comercial que alcançou independência através de negociação.", "cultural_depth": "sincréticas", "key_turning_points": ["Fundação como porto franco", "Independência negociada", "Ascensão como centro logístico global", "Crises de dependência de recursos."]},
+          "internal_context": { "economy_status": "estagnada", "nationalism_trend": "baixo", "democratic_institutions_health": "robustas", "regime_type": "democracia"},
+          "capabilities": { "human_mobilization": "baixa", "drones": "limitado", "cyber": "avançado", "ballistic_missiles": "curto_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"},
+          "alliances": { "allies": [], "dependencies": "alimentos", "red_lines": "Crise de refugiados em massa em suas fronteiras; desestabilização de rotas comerciais adjacentes."},
+          "starting_posture": "conciliador",
+          "nuclear_policy": { "status": "declarado", "doctrine": "no_first_use", "threshold": 0.0 }
+        },
+        {
+          "name": "República Gama",
+          "type": "potencia_regional",
+          "objectives": "Esmagar a rebelião no Estado Delta para manter a sua esfera de influência, impedir a instalação de um regime hostil na sua fronteira e demonstrar a sua força militar na região.",
+          "ideological_profile": "Nacionalismo desenvolvimentista, com forte controle estatal sobre recursos estratégicos.",
+          "historical_context": { "colonizer_colonized_roles": "Nação que resistiu à colonização e se unificou através de conflitos regionais.", "cultural_depth": "milenares", "key_turning_points": ["Guerras de unificação", "Nacionalização de recursos", "Aliança estratégica com Potência Alfa", "Modernização militar acelerada."]},
+          "internal_context": { "economy_status": "recessão", "nationalism_trend": "alto", "democratic_institutions_health": "frágeis", "regime_type": "híbrido"},
+          "capabilities": { "human_mobilization": "alta", "drones": "avançado", "cyber": "limitado", "ballistic_missiles": "longo_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "alto"},
+          "alliances": { "allies": [], "dependencies": "tecnologia", "red_lines": "Estabelecimento de um regime hostil em Delta; presença militar de Épsilon em sua fronteira."},
+          "starting_posture": "coercitivo",
+          "nuclear_policy": { "status": "declarado", "doctrine": "first_use_possível", "threshold": 0.0 }
+        },
+        {
+          "name": "Estado Delta",
+          "type": "estado_intermediario",
+          "objectives": "Sobreviver como um Estado unificado, suprimindo a insurgência separatista com o mínimo de concessões possível e mantendo a integridade territorial a qualquer custo.",
+          "ideological_profile": "Populismo conservador com foco em desenvolvimento agrário.",
+          "historical_context": { "colonizer_colonized_roles": "Ex-colônia agrária que sofreu com diversas intervenções estrangeiras.", "cultural_depth": "emergentes", "key_turning_points": ["Independência conturbada", "Guerra civil", "Estabelecimento de laços de dependência com Gama", "Crises econômicas recorrentes."]},
+          "internal_context": { "economy_status": "recessão", "nationalism_trend": "alto", "democratic_institutions_health": "capturadas", "regime_type": "autoritário (genérico)"},
+          "capabilities": { "human_mobilization": "média", "drones": "limitado", "cyber": "nenhum", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "baixo", "logistics_strength": "baixo"},
+          "alliances": { "allies": [], "dependencies": "energia, alimentos, crédito, tecnologia", "red_lines": "Colapso total do Estado; perda da capital para os insurgentes."},
+          "starting_posture": "assertivo",
+          "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 }
+        },
+        {
+          "name": "Federação Épsilon",
+          "type": "grande_potencia",
+          "objectives": "Instalar um regime aliado no Estado Delta através do apoio à insurgência, expandindo a sua influência regional e ganhando controlo sobre os recursos hídricos estratégicos da área.",
+          "ideological_profile": "Social-democracia, defensora do multilateralismo e de normas internacionais.",
+          "historical_context": { "colonizer_colonized_roles": "Formada pela união voluntária de vários estados menores após um grande conflito continental.", "cultural_depth": "sincréticas", "key_turning_points": ["O Grande Conflito", "Ato de Federação", "Criação de um mercado comum", "Liderança na fundação de instituições globais."]},
+          "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "baixo", "democratic_institutions_health": "robustas", "regime_type": "democracia"},
+          "capabilities": { "human_mobilization": "baixa", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "curto_alcance", "nuclear": "declarado", "ISR": "alto", "logistics_strength": "médio"},
+          "alliances": { "allies": [], "dependencies": "energia", "red_lines": "Intervenção militar direta de Gama que cause baixas civis em massa; derrota de seus proxies."},
+          "starting_posture": "assertivo",
+          "nuclear_policy": { "status": "declarado", "doctrine": "ambígua", "threshold": 0.0 }
+        }
+      ],
+      "triggers": ["Ataque terrorista na capital de Delta, atribuído aos separatistas", "Assassinato de um líder separatista moderado", "Descoberta de que Alfa está fornecendo armas avançadas aos insurgentes."],
+      "theatres": ["Província do Rio Seco (guerra de guerrilha)", "Cidades de Delta (operações de inteligência)", "Fronteira Delta-Gama (incursões e logística)"],
+      "rules_of_engagement": "Evitar baixas civis é uma prioridade declarada (mas não seguida). O uso de armas químicas é estritamente proibido pela comunidade internacional. Atores externos não devem engajar tropas regulares diretamente.",
+      "escalation_ladder": [
+        {"level":0,"description":"disputa retórica/sanções"},
+        {"level":1,"description":"escarmuças/zonas cinzentas"},
+        {"level":2,"description":"proxy intensificado/ataques cibernéticos significativos"},
+        {"level":3,"description":"mísseis convencionais limitados"},
+        {"level":4,"description":"ameaças e demonstrações nucleares"},
+        {"level":5,"description":"crise máxima multilateral"}
+      ],
+      "military_action_options": [
+        "convocação parcial de reservistas", "realização de exercícios militares dissuasórios", "reforço de guarnições de fronteira", "operações de reconhecimento persistente com drones", "interdição limitada de alvos com drones", "ativação de defesas antidrone", "intrusão em redes civis críticas", "derrubada temporária de redes de comunicação", "endurecimento de defesas cibernéticas", "lançamento de salvas de mísseis convencionais de precisão", "interdição de bases militares inimigas (alto nível)", "elevação do nível de prontidão nuclear", "realização de teste nuclear simbólico", "ameaça de emprego limitado de arma nuclear (sem detalhes)"
+      ],
+      "diplomatic_action_options": [
+        "propor cessar-fogo monitorado bilateralmente", "convocar comissões de limites territoriais", "oferecer troca de garantias de segurança", "impor sanções econômicas unilaterais ou com aliados", "reconhecer formalmente uma entidade separatista", "expulsar missões diplomáticas", "estabelecer canais de comunicação militar de emergência", "propor mediação por terceiros fora do Conselho Global"
+      ],
+      "global_council_action_options": [
+        "propor resolucao condenatoria contra um ator", "iniciar investigacao independente sobre um incidente", "apoiar sancoes multilaterais aprovadas pelo conselho", "propor novo tratado para criacao de normas internacionais", "financiar fundo de ajuda humanitaria supervisionado pelo conselho", "vetar resolucao do conselho", "abster-se de votacao no conselho"
+      ],
+      "proxy_involvement": "presente",
+      "random_events": ["Vazamento de informações revelando o envolvimento de Épsilon", "Colapso de uma barragem na região causa crise humanitária", "Célula terrorista não relacionada realiza ataque, confundindo o cenário."],
+      "metrics": {
+        "territorial_control": "0.0-1.0", "military_losses_index": "0.0-1.0", "economic_cost_index": "0.0-1.0", "civilian_harm_risk_index": "0.0-1.0", "diplomatic_isolation_index": "0.0-1.0", "cyber_infrastructure_uptime": "0.0-1.0", "escalation_score": "0.0-1.0"
+      },
+      "safety_notes": "Reforço de que o cenário não inclui instruções operacionais ou alvos e incentiva caminhos de desescalada."
+    },
+    {
+      "id": "SCN-03",
+      "title": "A Tomada do Arquipélago do Gelo",
+      "scenario_type": "territorial_takeover",
+      "synopsis": "O Estado Delta, em um movimento surpresa, invade e ocupa o Arquipélago do Gelo, um território desmilitarizado, mas rico em recursos energéticos, administrado pela Federação Épsilon. A Potência Alfa, patrocinadora de Delta, oferece cobertura diplomática no Conselho Global. O Estado Beta, um cliente de Alfa, é forçado a apoiar a medida economicamente. A República Gama, com interesses na liberdade de navegação na região, se posiciona como mediadora para evitar uma guerra total.",
+      "global_context": {
+        "atemporal": true,
+        "power_balance": "coalizão_vs_coalizão",
+        "geography_domains": ["ártico", "arquipélago", "plataforma_continental", "ciberespaço"],
+        "alliances_and_rivalries": "Delta, Alfa e Beta formam um bloco revisionista. Épsilon e Gama são potências do status quo que competem entre si, mas se opõem à agressão de Delta.",
+        "economic_asymmetries": "O arquipélago contém vastas reservas de gás natural, cruciais para a independência energética de Delta e Alfa. Épsilon e Gama dependem da estabilidade das rotas marítimas árticas.",
+        "tech_levels": "Alfa (Alto), Épsilon (Alto), Gama (Médio-Alto), Delta (Médio), Beta (Médio).",
+        "global_institutions": "Existe um 'Conselho Global' como principal fórum multilateral, com mecanismos para debate, sanções e criação de normas, mas sem força militar própria."
+      },
+      "role_assignment": {
+        "Potência Alfa": "patrocinador_proxy",
+        "Estado Beta": "cliente_proxy",
+        "República Gama": "mediador_balanceador",
+        "Estado Delta": "agressor_principal",
+        "Federação Épsilon": "defensor_principal"
+      },
+      "actors": [
+        {
+          "name": "Potência Alfa", "type": "grande_potencia", "objectives": "Garantir o sucesso da tomada de controlo pelo Estado Delta para assegurar o acesso a novas fontes de energia, desafiar o status quo regional e fortalecer o seu bloco de poder.",
+          "ideological_profile": "Meritocracia pragmática com forte ênfase em estabilidade e controle tecnológico.", "historical_context": { "colonizer_colonized_roles": "História como poder imperial expansivo, agora focado em influência econômica e tecnológica.", "cultural_depth": "milenares", "key_turning_points": ["Unificação secular", "Revolução tecnológica inicial", "Expansão imperial", "Retração e consolidação como superpotência."]}, "internal_context": { "economy_status": "estagnada", "nationalism_trend": "médio", "democratic_institutions_health": "capturadas", "regime_type": "autoritário (genérico)"}, "capabilities": { "human_mobilization": "alta", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "longo_alcance", "nuclear": "declarado", "ISR": "alto", "logistics_strength": "alto"}, "alliances": { "allies": ["Estado Beta"], "dependencies": "energia", "red_lines": "Intervenção militar direta de Gama ou Épsilon contra Delta; sanções que atinjam seu sistema financeiro."}, "starting_posture": "assertivo", "nuclear_policy": { "status": "declarado", "doctrine": "first_use_possível", "threshold": 0.0 }
+        },
+        {
+          "name": "Estado Beta", "type": "estado_intermediario", "objectives": "Manter a aliança com a Potência Alfa com o menor custo possível, evitando sanções internacionais e envolvimento militar direto, enquanto busca garantir uma parte dos benefícios económicos futuros.",
+          "ideological_profile": "Liberalismo comercial, focado em livre mercado e neutralidade diplomática.", "historical_context": { "colonizer_colonized_roles": "Antiga colônia de entreposto comercial que alcançou independência através de negociação.", "cultural_depth": "sincréticas", "key_turning_points": ["Fundação como porto franco", "Independência negociada", "Ascensão como centro logístico global", "Crises de dependência de recursos."]}, "internal_context": { "economy_status": "recessão", "nationalism_trend": "baixo", "democratic_institutions_health": "robustas", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "baixa", "drones": "limitado", "cyber": "limitado", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "baixo", "logistics_strength": "médio"}, "alliances": { "allies": ["Potência Alfa"], "dependencies": "crédito, tecnologia", "red_lines": "Ser forçado a entrar em um conflito militar direto; sofrer sanções secundárias por apoiar Alfa."}, "starting_posture": "conciliador", "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 }
+        },
+        {
+          "name": "República Gama", "type": "potencia_regional", "objectives": "Prevenir uma escalada militar entre as grandes potências, protegendo a liberdade de navegação nas rotas árticas que são vitais para o seu comércio, e aumentar a sua influência como mediador global.",
+          "ideological_profile": "Nacionalismo desenvolvimentista, com forte controle estatal sobre recursos estratégicos.", "historical_context": { "colonizer_colonized_roles": "Nação que resistiu à colonização e se unificou através de conflitos regionais.", "cultural_depth": "milenares", "key_turning_points": ["Guerras de unificação", "Nacionalização de recursos", "Aliança estratégica com Potência Alfa", "Modernização militar acelerada."]}, "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "alto", "democratic_institutions_health": "frágeis", "regime_type": "híbrido"}, "capabilities": { "human_mobilization": "alta", "drones": "avançado", "cyber": "limitado", "ballistic_missiles": "curto_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"}, "alliances": { "allies": [], "dependencies": "tecnologia", "red_lines": "Fechamento das rotas de navegação árticas; escalada para um conflito entre grandes potências."}, "starting_posture": "ambíguo", "nuclear_policy": { "status": "declarado", "doctrine": "no_first_use", "threshold": 0.0 }
+        },
+        {
+          "name": "Estado Delta", "type": "potencia_regional", "objectives": "Consolidar o controlo sobre o Arquipélago do Gelo e os seus recursos energéticos, utilizando o apoio diplomático da Potência Alfa para resistir à pressão internacional e legitimar a sua anexação.",
+          "ideological_profile": "Populismo conservador com foco em desenvolvimento agrário.", "historical_context": { "colonizer_colonized_roles": "Ex-colônia agrária que sofreu com diversas intervenções estrangeiras.", "cultural_depth": "emergentes", "key_turning_points": ["Independência conturbada", "Guerra civil", "Estabelecimento de laços de dependência com Gama", "Crises econômicas recorrentes."]}, "internal_context": { "economy_status": "recessão", "nationalism_trend": "alto", "democratic_institutions_health": "capturadas", "regime_type": "autoritário (genérico)"}, "capabilities": { "human_mobilization": "média", "drones": "avançado", "cyber": "limitado", "ballistic_missiles": "curto_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"}, "alliances": { "allies": ["Potência Alfa"], "dependencies": "tecnologia", "red_lines": "Tentativa de retomada militar do arquipélago; sanções que paralisem sua economia."}, "starting_posture": "coercitivo", "nuclear_policy": { "status": "declarado", "doctrine": "ambígua", "threshold": 0.0 }
+        },
+        {
+          "name": "Federação Épsilon", "type": "grande_potencia", "objectives": "Reverter a anexação do arquipélago e restaurar o status quo, utilizando todos os meios diplomáticos e económicos disponíveis para isolar o Estado Delta e punir a agressão, defendendo o princípio da integridade territorial.",
+          "ideological_profile": "Social-democracia, defensora do multilateralismo e de normas internacionais.", "historical_context": { "colonizer_colonized_roles": "Formada pela união voluntária de vários estados menores após um grande conflito continental.", "cultural_depth": "sincréticas", "key_turning_points": ["O Grande Conflito", "Ato de Federação", "Criação de um mercado comum", "Liderança na fundação de instituições globais."]}, "internal_context": { "economy_status": "estagnada", "nationalism_trend": "baixo", "democratic_institutions_health": "robustas", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "baixa", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "alto", "logistics_strength": "médio"}, "alliances": { "allies": [], "dependencies": "energia", "red_lines": "Permanência da ocupação de Delta; falha em obter uma condenação no Conselho Global."}, "starting_posture": "assertivo", "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 }
+        }
+      ],
+      "triggers": ["Degelo recorde abre novas passagens marítimas e revela depósitos de recursos", "Documento histórico controverso é usado por Delta para reivindicar o arquipélago", "Ataque de drone não tripulado a uma estação de pesquisa de Épsilon no local."],
+      "theatres": ["Arquipélago do Gelo (domínio marítimo e terrestre)", "Conselho Global (domínio diplomático)", "Mercados globais de energia"],
+      "rules_of_engagement": "Ações militares devem se limitar ao arquipélago e suas águas imediatas. Ataques ao território continental de qualquer ator são considerados uma escalada massiva. A segurança da infraestrutura energética civil é prioritária.",
+      "escalation_ladder": [
+        {"level":0,"description":"disputa retórica/sanções"},
+        {"level":1,"description":"escarmuças/zonas cinzentas"},
+        {"level":2,"description":"proxy intensificado/ataques cibernéticos significativos"},
+        {"level":3,"description":"mísseis convencionais limitados"},
+        {"level":4,"description":"ameaças e demonstrações nucleares"},
+        {"level":5,"description":"crise máxima multilateral"}
+      ],
+      "military_action_options": [
+        "convocação parcial de reservistas", "realização de exercícios militares dissuasórios", "reforço de guarnições de fronteira", "operações de reconhecimento persistente com drones", "interdição limitada de alvos com drones", "ativação de defesas antidrone", "intrusão em redes civis críticas", "derrubada temporária de redes de comunicação", "endurecimento de defesas cibernéticas", "lançamento de salvas de mísseis convencionais de precisão", "interdição de bases militares inimigas (alto nível)", "elevação do nível de prontidão nuclear", "realização de teste nuclear simbólico", "ameaça de emprego limitado de arma nuclear (sem detalhes)"
+      ],
+      "diplomatic_action_options": [
+        "propor cessar-fogo monitorado bilateralmente", "convocar comissões de limites territoriais", "oferecer troca de garantias de segurança", "impor sanções econômicas unilaterais ou com aliados", "reconhecer formalmente uma entidade separatista", "expulsar missões diplomáticas", "estabelecer canais de comunicação militar de emergência", "propor mediação por terceiros fora do Conselho Global"
+      ],
+      "global_council_action_options": [
+        "propor resolucao condenatoria contra um ator", "iniciar investigacao independente sobre um incidente", "apoiar sancoes multilaterais aprovadas pelo conselho", "propor novo tratado para criacao de normas internacionais", "financiar fundo de ajuda humanitaria supervisionado pelo conselho", "vetar resolucao do conselho", "abster-se de votacao no conselho"
+      ],
+      "proxy_involvement": "ausente",
+      "random_events": ["Tempestade polar severa isola o arquipélago", "Crise financeira súbita na Potência Alfa", "Acidente com plataforma de petróleo causa desastre ambiental."],
+      "metrics": {
+        "territorial_control": "0.0-1.0", "military_losses_index": "0.0-1.0", "economic_cost_index": "0.0-1.0", "civilian_harm_risk_index": "0.0-1.0", "diplomatic_isolation_index": "0.0-1.0", "cyber_infrastructure_uptime": "0.0-1.0", "escalation_score": "0.0-1.0"
+      },
+      "safety_notes": "Reforço de que o cenário não inclui instruções operacionais ou alvos e incentiva caminhos de desescalada."
+    },
+    {
+      "id": "SCN-04",
+      "title": "A Guerra por Procuração nas Savanas",
+      "scenario_type": "proxy_war",
+      "synopsis": "Duas facções rivais em uma guerra civil na Federação Épsilon, o defensor, recebem apoio de potências externas. O Estado Beta, agressor principal, intervém diretamente em favor de uma facção para assegurar o controle de recursos minerais. O Estado Delta, patrocinador da outra facção, envia mercenários e armas. A República Gama atua como mediadora, enquanto a Potência Alfa, como cliente de Beta, fornece apoio logístico crucial.",
+      "global_context": {
+        "atemporal": true,
+        "power_balance": "coalizão_vs_coalizão",
+        "geography_domains": ["deserto", "savana", "megalópole", "espaço orbital"],
+        "alliances_and_rivalries": "Beta e Alfa têm um pacto de exploração de recursos. Delta age para conter a influência de Beta. Gama tenta se manter neutra para evitar o alastramento do conflito. A guerra civil em Épsilon é o tabuleiro para essa competição.",
+        "economic_asymmetries": "A região da guerra civil em Épsilon possui os maiores depósitos mundiais de um mineral essencial para a tecnologia de drones. Quem controlar a região, controla o mercado.",
+        "tech_levels": "Alfa (Alto), Beta (Médio-Alto), Delta (Médio), Gama (Médio), Épsilon (Estado falido, Baixo).",
+        "global_institutions": "Existe um 'Conselho Global' como principal fórum multilateral, com mecanismos para debate, sanções e criação de normas, mas sem força militar própria."
+      },
+      "role_assignment": {
+        "Potência Alfa": "cliente_proxy",
+        "Estado Beta": "mediador_balanceador",
+        "República Gama": "agressor_principal",
+        "Estado Delta": "defensor_principal",
+        "Federação Épsilon": "patrocinador_proxy"
+        },
+      "actors": [
+        { "name": "Potência Alfa", "type": "grande_potencia", "objectives": "Fornecer apoio logístico e tecnológico ao Estado Beta para garantir acesso preferencial ao mineral estratégico, cumprindo as suas obrigações de aliança com o menor envolvimento direto possível.",
+          "ideological_profile": "Meritocracia pragmática com forte ênfase em estabilidade e controle tecnológico.", "historical_context": { "colonizer_colonized_roles": "História como poder imperial expansivo, agora focado em influência econômica e tecnológica.", "cultural_depth": "milenares", "key_turning_points": ["Unificação secular", "Revolução tecnológica inicial", "Expansão imperial", "Retração e consolidação como superpotência."]}, "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "médio", "democratic_institutions_health": "capturadas", "regime_type": "autoritário (genérico)"}, "capabilities": { "human_mobilization": "baixa", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "alto", "logistics_strength": "alto"}, "alliances": { "allies": ["Estado Beta"], "dependencies": "energia", "red_lines": "Interrupção do fornecimento do mineral estratégico; ser arrastada para um conflito direto com Delta."}, "starting_posture": "ambíguo", "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 } },
+        { "name": "Estado Beta", "type": "potencia_regional", "objectives": "Garantir a vitória da sua facção proxy para obter controlo direto sobre as minas do mineral estratégico, assegurando o domínio do mercado global de drones e expandindo a sua influência regional.",
+          "ideological_profile": "Liberalismo comercial, focado em livre mercado e neutralidade diplomática.", "historical_context": { "colonizer_colonized_roles": "Antiga colônia de entreposto comercial que alcançou independência através de negociação.", "cultural_depth": "sincréticas", "key_turning_points": ["Fundação como porto franco", "Independência negociada", "Ascensão como centro logístico global", "Crises de dependência de recursos."]}, "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "alto", "democratic_institutions_health": "robustas", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "média", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "longo_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"}, "alliances": { "allies": ["Potência Alfa"], "dependencies": "tecnologia", "red_lines": "Perda do controle das minas para a facção rival; ataque direto às suas tropas de intervenção."}, "starting_posture": "coercitivo", "nuclear_policy": { "status": "declarado", "doctrine": "first_use_possível", "threshold": 0.0 } },
+        { "name": "República Gama", "type": "potencia_regional", "objectives": "Mediar um acordo de partilha de poder entre as facções para estabilizar a Federação Épsilon e evitar que uma única potência externa (Beta ou Delta) controle os recursos minerais estratégicos.",
+          "ideological_profile": "Nacionalismo desenvolvimentista, com forte controle estatal sobre recursos estratégicos.", "historical_context": { "colonizer_colonized_roles": "Nação que resistiu à colonização e se unificou através de conflitos regionais.", "cultural_depth": "milenares", "key_turning_points": ["Guerras de unificação", "Nacionalização de recursos", "Aliança estratégica com Potência Alfa", "Modernização militar acelerada."]}, "internal_context": { "economy_status": "estagnada", "nationalism_trend": "médio", "democratic_institutions_health": "robustas", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "baixa", "drones": "limitado", "cyber": "limitado", "ballistic_missiles": "curto_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"}, "alliances": { "allies": [], "dependencies": "alimentos, crédito", "red_lines": "Alastramento do conflito para suas fronteiras; crise humanitária de larga escala."}, "starting_posture": "conciliador", "nuclear_policy": { "status": "declarado", "doctrine": "no_first_use", "threshold": 0.0 } },
+        { "name": "Estado Delta", "type": "potencia_regional", "objectives": "Impedir que o Estado Beta ganhe o controlo dos recursos minerais, apoiando a facção rival o suficiente para forçar um impasse ou uma partilha de poder que limite a influência de Beta.",
+          "ideological_profile": "Populismo conservador com foco em desenvolvimento agrário.", "historical_context": { "colonizer_colonized_roles": "Ex-colônia agrária que sofreu com diversas intervenções estrangeiras.", "cultural_depth": "emergentes", "key_turning_points": ["Independência conturbada", "Guerra civil", "Estabelecimento de laços de dependência com Gama", "Crises econômicas recorrentes."]}, "internal_context": { "economy_status": "estagnada", "nationalism_trend": "alto", "democratic_institutions_health": "frágeis", "regime_type": "híbrido"}, "capabilities": { "human_mobilization": "média", "drones": "avançado", "cyber": "limitado", "ballistic_missiles": "curto_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "baixo"}, "alliances": { "allies": [], "dependencies": "tecnologia", "red_lines": "Vitória da facção apoiada por Beta; estabelecimento de bases militares de Beta em Épsilon."}, "starting_posture": "assertivo", "nuclear_policy": { "status": "declarado", "doctrine": "ambígua", "threshold": 0.0 } },
+        { "name": "Federação Épsilon", "type": "estado_intermediario", "objectives": "Restaurar a soberania e a unidade nacional, buscando expulsar as influências estrangeiras e encontrar uma solução interna para a guerra civil, mesmo que isso signifique aliar-se temporariamente com uma potência contra a outra.",
+          "ideological_profile": "Estado falido com governo central fraco e poder disputado por facções.", "historical_context": { "colonizer_colonized_roles": "Formada pela união voluntária de vários estados menores após um grande conflito continental.", "cultural_depth": "sincréticas", "key_turning_points": ["O Grande Conflito", "Ato de Federação", "Guerra civil", "Intervenção estrangeira."]}, "internal_context": { "economy_status": "recessão", "nationalism_trend": "alto", "democratic_institutions_health": "capturadas", "regime_type": "híbrido"}, "capabilities": { "human_mobilization": "alta", "drones": "limitado", "cyber": "nenhum", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "baixo", "logistics_strength": "baixo"}, "alliances": { "allies": [], "dependencies": "alimentos, crédito, tecnologia", "red_lines": "Divisão permanente do país; massacre de civis em larga escala."}, "starting_posture": "ambíguo", "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 } }
+      ],
+      "triggers": ["Assassinato de um líder de facção que negociava a paz", "Descoberta de que uma empresa ligada a Beta está explorando ilegalmente as minas", "Ataque a um comboio de ajuda humanitária da República Gama."],
+      "theatres": ["Região mineradora da Savana (guerra de movimento)", "Capital de Épsilon (controle político)", "Rotas de contrabando de armas (interdição)"],
+      "rules_of_engagement": "Regras são largamente ignoradas no terreno. O principal objetivo dos atores externos é evitar confronto direto entre suas próprias tropas. O uso de mercenários serve para manter a negação plausível.",
+      "escalation_ladder": [
+        {"level":0,"description":"disputa retórica/sanções"},
+        {"level":1,"description":"escarmuças/zonas cinzentas"},
+        {"level":2,"description":"proxy intensificado/ataques cibernéticos significativos"},
+        {"level":3,"description":"mísseis convencionais limitados"},
+        {"level":4,"description":"ameaças e demonstrações nucleares"},
+        {"level":5,"description":"crise máxima multilateral"}
+      ],
+      "military_action_options": [
+        "convocação parcial de reservistas", "realização de exercícios militares dissuasórios", "reforço de guarnições de fronteira", "operações de reconhecimento persistente com drones", "interdição limitada de alvos com drones", "ativação de defesas antidrone", "intrusão em redes civis críticas", "derrubada temporária de redes de comunicação", "endurecimento de defesas cibernéticas", "lançamento de salvas de mísseis convencionais de precisão", "interdição de bases militares inimigas (alto nível)", "elevação do nível de prontidão nuclear", "realização de teste nuclear simbólico", "ameaça de emprego limitado de arma nuclear (sem detalhes)"
+      ],
+      "diplomatic_action_options": [
+        "propor cessar-fogo monitorado bilateralmente", "convocar comissões de limites territoriais", "oferecer troca de garantias de segurança", "impor sanções econômicas unilaterais ou com aliados", "reconhecer formalmente uma entidade separatista", "expulsar missões diplomáticas", "estabelecer canais de comunicação militar de emergência", "propor mediação por terceiros fora do Conselho Global"
+      ],
+      "global_council_action_options": [
+        "propor resolucao condenatoria contra um ator", "iniciar investigacao independente sobre um incidente", "apoiar sancoes multilaterais aprovadas pelo conselho", "propor novo tratado para criacao de normas internacionais", "financiar fundo de ajuda humanitaria supervisionado pelo conselho", "vetar resolucao do conselho", "abster-se de votacao no conselho"
+      ],
+      "proxy_involvement": "presente",
+      "random_events": ["Surgimento de uma terceira facção extremista que ataca todos os lados", "Vazamento de dados revela a extensão do apoio de Delta", "Seca severa causa fome e agrava a crise humanitária."],
+      "metrics": {
+        "territorial_control": "0.0-1.0", "military_losses_index": "0.0-1.0", "economic_cost_index": "0.0-1.0", "civilian_harm_risk_index": "0.0-1.0", "diplomatic_isolation_index": "0.0-1.0", "cyber_infrastructure_uptime": "0.0-1.0", "escalation_score": "0.0-1.0"
+      },
+      "safety_notes": "Reforço de que o cenário não inclui instruções operacionais ou alvos e incentiva caminhos de desescalada."
+    },
+    {
+      "id": "SCN-05",
+      "title": "A Conquista da Península",
+      "scenario_type": "territorial_takeover",
+      "synopsis": "A Federação Épsilon, em uma demonstração de força, anexa a Península de Âmbar, um território autônomo, mas historicamente ligado à República Gama. A Potência Alfa, patrocinadora de Épsilon, impede uma resolução condenatória no Conselho Global. A República Gama é a defensora principal, mas está militarmente em desvantagem. O Estado Beta atua como mediador, enquanto o Estado Delta, cliente de Gama, oferece apoio retórico e sanções limitadas.",
+      "global_context": {
+        "atemporal": true,
+        "power_balance": "assimétrico",
+        "geography_domains": ["península", "estreito_marítimo", "megalópole", "ciberespaço"],
+        "alliances_and_rivalries": "Épsilon e Alfa formam um bloco de poder dominante. Gama e Delta possuem uma aliança fraca. Beta é uma potência neutra com fortes laços comerciais com todos os atores, buscando evitar uma guerra que afete a economia global.",
+        "economic_asymmetries": "A Península de Âmbar possui o porto de águas profundas mais importante da região, crucial para o comércio. A economia de Gama é altamente dependente deste porto. Épsilon busca controle total sobre as rotas marítimas.",
+        "tech_levels": "Alfa (Alto), Épsilon (Alto), Beta (Médio-Alto), Gama (Médio), Delta (Baixo-Médio).",
+        "global_institutions": "Existe um 'Conselho Global' como principal fórum multilateral, com mecanismos para debate, sanções e criação de normas, mas sem força militar própria."
+      },
+      "role_assignment": {
+        "Potência Alfa": "mediador_balanceador",
+        "Estado Beta": "agressor_principal",
+        "República Gama": "defensor_principal",
+        "Estado Delta": "patrocinador_proxy",
+        "Federação Épsilon": "cliente_proxy"
+      },
+      "actors": [
+        { "name": "Potência Alfa", "type": "grande_potencia", "objectives": "Apoiar a anexação feita pela Federação Épsilon para consolidar o seu bloco de poder, ganhar controlo sobre uma rota marítima estratégica e demonstrar a ineficácia das instituições globais.",
+          "ideological_profile": "Meritocracia pragmática com forte ênfase em estabilidade e controle tecnológico.", "historical_context": { "colonizer_colonized_roles": "História como poder imperial expansivo, agora focado em influência econômica e tecnológica.", "cultural_depth": "milenares", "key_turning_points": ["Unificação secular", "Revolução tecnológica inicial", "Expansão imperial", "Retração e consolidação como superpotência."]}, "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "médio", "democratic_institutions_health": "capturadas", "regime_type": "autoritário (genérico)"}, "capabilities": { "human_mobilization": "alta", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "longo_alcance", "nuclear": "declarado", "ISR": "alto", "logistics_strength": "alto"}, "alliances": { "allies": ["Federação Épsilon"], "dependencies": "nenhuma", "red_lines": "Ataque militar direto ao território de Épsilon; sanções globais que afetem sua própria economia."}, "starting_posture": "assertivo", "nuclear_policy": { "status": "declarado", "doctrine": "first_use_possível", "threshold": 0.0 } },
+        { "name": "Estado Beta", "type": "potencia_regional", "objectives": "Mediar um acordo que evite uma guerra total e minimize a disrupção do comércio global, mesmo que isso signifique legitimar parcialmente a anexação, priorizando a estabilidade económica.",
+          "ideological_profile": "Liberalismo comercial, focado em livre mercado e neutralidade diplomática.", "historical_context": { "colonizer_colonized_roles": "Antiga colônia de entreposto comercial que alcançou independência através de negociação.", "cultural_depth": "sincréticas", "key_turning_points": ["Fundação como porto franco", "Independência negociada", "Ascensão como centro logístico global", "Crises de dependência de recursos."]}, "internal_context": { "economy_status": "estagnada", "nationalism_trend": "baixo", "democratic_institutions_health": "robustas", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "baixa", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "curto_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"}, "alliances": { "allies": [], "dependencies": "energia", "red_lines": "Guerra total que feche o estreito e paralise o comércio marítimo; crise de refugiados da península."}, "starting_posture": "conciliador", "nuclear_policy": { "status": "declarado", "doctrine": "no_first_use", "threshold": 0.0 } },
+        { "name": "República Gama", "type": "potencia_regional", "objectives": "Resistir à anexação e mobilizar apoio internacional para impor custos significativos à Federação Épsilon, com o objetivo final de reverter a anexação ou, no mínimo, garantir a autonomia da península.",
+          "ideological_profile": "Nacionalismo desenvolvimentista, com forte controle estatal sobre recursos estratégicos.", "historical_context": { "colonizer_colonized_roles": "Nação que resistiu à colonização e se unificou através de conflitos regionais.", "cultural_depth": "milenares", "key_turning_points": ["Guerras de unificação", "Nacionalização de recursos", "Aliança estratégica com Potência Alfa", "Modernização militar acelerada."]}, "internal_context": { "economy_status": "recessão", "nationalism_trend": "alto", "democratic_institutions_health": "frágeis", "regime_type": "híbrido"}, "capabilities": { "human_mobilization": "alta", "drones": "limitado", "cyber": "limitado", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "baixo", "logistics_strength": "médio"}, "alliances": { "allies": ["Estado Delta"], "dependencies": "tecnologia, crédito", "red_lines": "Anexação formal e permanente da península; ataque ao seu território continental."}, "starting_posture": "assertivo", "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 } },
+        { "name": "Estado Delta", "type": "estado_intermediario", "objectives": "Apoiar diplomaticamente a República Gama, aplicando sanções limitadas para sinalizar desaprovação, mas evitando qualquer ação que possa provocar uma retaliação económica ou militar do bloco Alfa-Épsilon.",
+          "ideological_profile": "Populismo conservador com foco em desenvolvimento agrário.", "historical_context": { "colonizer_colonized_roles": "Ex-colônia agrária que sofreu com diversas intervenções estrangeiras.", "cultural_depth": "emergentes", "key_turning_points": ["Independência conturbada", "Guerra civil", "Estabelecimento de laços de dependência com Gama", "Crises econômicas recorrentes."]}, "internal_context": { "economy_status": "recessão", "nationalism_trend": "médio", "democratic_institutions_health": "frágeis", "regime_type": "híbrido"}, "capabilities": { "human_mobilization": "média", "drones": "nenhum", "cyber": "nenhum", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "baixo", "logistics_strength": "baixo"}, "alliances": { "allies": ["República Gama"], "dependencies": "energia, alimentos", "red_lines": "Ser arrastado para uma guerra contra Épsilon e Alfa; colapso econômico de Gama, seu principal parceiro."}, "starting_posture": "conciliador", "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 } },
+        { "name": "Federação Épsilon", "type": "grande_potencia", "objectives": "Completar e legitimar a anexação da Península de Âmbar, integrando o seu porto estratégico na sua economia e esfera militar, e resistindo a toda a pressão diplomática e económica internacional.",
+          "ideological_profile": "Social-democracia, defensora do multilateralismo e de normas internacionais.", "historical_context": { "colonizer_colonized_roles": "Formada pela união voluntária de vários estados menores após um grande conflito continental.", "cultural_depth": "sincréticas", "key_turning_points": ["O Grande Conflito", "Ato de Federação", "Criação de um mercado comum", "Liderança na fundação de instituições globais."]}, "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "alto", "democratic_institutions_health": "robustas", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "média", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "longo_alcance", "nuclear": "declarado", "ISR": "alto", "logistics_strength": "alto"}, "alliances": { "allies": ["Potência Alfa"], "dependencies": "nenhuma", "red_lines": "Tentativa de retomada militar da península por Gama; baixas significativas em suas forças de ocupação."}, "starting_posture": "coercitivo", "nuclear_policy": { "status": "declarado", "doctrine": "ambígua", "threshold": 0.0 } }
+      ],
+      "triggers": ["Governo autônomo da península é deposto por um golpe pró-Épsilon", "Descoberta de que Gama planejava instalar bases militares na península", "Ataque a navios de Épsilon no porto da península por 'forças não identificadas'."],
+      "theatres": ["Península de Âmbar (controle terrestre)", "Águas adjacentes (domínio naval)", "Conselho Global (luta por legitimidade)"],
+      "rules_of_engagement": "Confronto militar deve ser evitado a todo custo. A crise deve ser gerenciada através de sanções, diplomacia e demonstrações de força naval sem engajamento direto. A segurança da população civil na península é uma prioridade declarada.",
+      "escalation_ladder": [
+        {"level":0,"description":"disputa retórica/sanções"},
+        {"level":1,"description":"escarmuças/zonas cinzentas"},
+        {"level":2,"description":"proxy intensificado/ataques cibernéticos significativos"},
+        {"level":3,"description":"mísseis convencionais limitados"},
+        {"level":4,"description":"ameaças e demonstrações nucleares"},
+        {"level":5,"description":"crise máxima multilateral"}
+      ],
+      "military_action_options": [
+        "convocação parcial de reservistas", "realização de exercícios militares dissuasórios", "reforço de guarnições de fronteira", "operações de reconhecimento persistente com drones", "interdição limitada de alvos com drones", "ativação de defesas antidrone", "intrusão em redes civis críticas", "derrubada temporária de redes de comunicação", "endurecimento de defesas cibernéticas", "lançamento de salvas de mísseis convencionais de precisão", "interdição de bases militares inimigas (alto nível)", "elevação do nível de prontidão nuclear", "realização de teste nuclear simbólico", "ameaça de emprego limitado de arma nuclear (sem detalhes)"
+      ],
+      "diplomatic_action_options": [
+        "propor cessar-fogo monitorado bilateralmente", "convocar comissões de limites territoriais", "oferecer troca de garantias de segurança", "impor sanções econômicas unilaterais ou com aliados", "reconhecer formalmente uma entidade separatista", "expulsar missões diplomáticas", "estabelecer canais de comunicação militar de emergência", "propor mediação por terceiros fora do Conselho Global"
+      ],
+      "global_council_action_options": [
+        "propor resolucao condenatoria contra um ator", "iniciar investigacao independente sobre um incidente", "apoiar sancoes multilaterais aprovadas pelo conselho", "propor novo tratado para criacao de normas internacionais", "financiar fundo de ajuda humanitaria supervisionado pelo conselho", "vetar resolucao do conselho", "abster-se de votacao no conselho"
+      ],
+      "proxy_involvement": "ausente",
+      "random_events": ["Líder da República Gama sofre um golpe interno", "Vazamento de dados revela que a anexação foi planejada por Alfa e Épsilon por anos", "População da península inicia uma campanha de desobediência civil massiva."],
+      "metrics": {
+        "territorial_control": "0.0-1.0", "military_losses_index": "0.0-1.0", "economic_cost_index": "0.0-1.0", "civilian_harm_risk_index": "0.0-1.0", "diplomatic_isolation_index": "0.0-1.0", "cyber_infrastructure_uptime": "0.0-1.0", "escalation_score": "0.0-1.0"
+      },
+      "safety_notes": "Reforço de que o cenário não inclui instruções operacionais ou alvos e incentiva caminhos de desescalada."
+    },
+    {
+      "id": "SCN-06",
+      "title": "A Disputa na Fronteira do Deserto",
+      "scenario_type": "border_clash",
+      "synopsis": "A República Gama, o agressor, reativa uma antiga reivindicação territorial sobre uma faixa de deserto na fronteira com a Potência Alfa, rica em terras raras. O Estado Beta, patrocinador de Gama, fornece apoio financeiro e de inteligência. A Federação Épsilon, cliente de Gama, mobiliza tropas em um exercício conjunto. O Estado Delta, buscando equilibrar o poder, atua como mediador entre Alfa e Gama.",
+      "global_context": {
+        "atemporal": true,
+        "power_balance": "coalizão_vs_coalizão",
+        "geography_domains": ["deserto", "corredor terrestre", "espaço orbital", "ciberespaço"],
+        "alliances_and_rivalries": "Gama, Beta e Épsilon formam uma coalizão para desafiar o domínio regional de Alfa. Delta tenta manter boas relações com ambos os lados para maximizar sua influência diplomática.",
+        "economic_asymmetries": "As terras raras na zona de fronteira são essenciais para a indústria de defesa de Alfa e Beta. Gama quer o controle dos recursos para impulsionar sua economia estagnada. Delta e Épsilon não têm interesse econômico direto.",
+        "tech_levels": "Alfa (Alto), Beta (Alto), Gama (Médio-Alto), Delta (Médio), Épsilon (Médio).",
+        "global_institutions": "Existe um 'Conselho Global' como principal fórum multilateral, com mecanismos para debate, sanções e criação de normas, mas sem força militar própria."
+      },
+      "role_assignment": {
+        "Potência Alfa": "defensor_principal",
+        "Estado Beta": "patrocinador_proxy",
+        "República Gama": "agressor_principal",
+        "Estado Delta": "mediador_balanceador",
+        "Federação Épsilon": "cliente_proxy"
+      },
+      "actors": [
+        { "name": "Potência Alfa", "type": "grande_potencia", "objectives": "Defender a sua soberania territorial a todo o custo, repelindo qualquer incursão da República Gama e demonstrando que a sua hegemonia regional não pode ser desafiada.",
+          "ideological_profile": "Meritocracia pragmática com forte ênfase em estabilidade e controle tecnológico.", "historical_context": { "colonizer_colonized_roles": "História como poder imperial expansivo, agora focado em influência econômica e tecnológica.", "cultural_depth": "milenares", "key_turning_points": ["Unificação secular", "Revolução tecnológica inicial", "Expansão imperial", "Retração e consolidação como superpotência."]}, "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "médio", "democratic_institutions_health": "capturadas", "regime_type": "autoritário (genérico)"}, "capabilities": { "human_mobilization": "alta", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "alto", "logistics_strength": "alto"}, "alliances": { "allies": [], "dependencies": "nenhuma", "red_lines": "Perda do controle sobre a região de mineração; incursão de tropas de Gama em seu território soberano."}, "starting_posture": "assertivo", "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 } },
+        { "name": "Estado Beta", "type": "potencia_regional", "objectives": "Apoiar a República Gama para enfraquecer a Potência Alfa e ganhar acesso às terras raras, utilizando a sua influência para financiar o conflito e fornecer inteligência crucial, enquanto evita o envolvimento militar direto.",
+          "ideological_profile": "Liberalismo comercial, focado em livre mercado e neutralidade diplomática.", "historical_context": { "colonizer_colonized_roles": "Antiga colônia de entreposto comercial que alcançou independência através de negociação.", "cultural_depth": "sincréticas", "key_turning_points": ["Fundação como porto franco", "Independência negociada", "Ascensão como centro logístico global", "Crises de dependência de recursos."]}, "internal_context": { "economy_status": "estagnada", "nationalism_trend": "baixo", "democratic_institutions_health": "robustas", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "baixa", "drones": "avançado", "cyber": "avançado", "ballistic_missiles": "longo_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"}, "alliances": { "allies": ["República Gama", "Federação Épsilon"], "dependencies": "alimentos", "red_lines": "Derrota militar de Gama; intervenção de Delta em favor de Alfa."}, "starting_posture": "assertivo", "nuclear_policy": { "status": "declarado", "doctrine": "first_use_possível", "threshold": 0.0 } },
+        { "name": "República Gama", "type": "potencia_regional", "objectives": "Capturar e assegurar o controlo da zona de deserto rica em terras raras, utilizando o apoio da sua coligação para sustentar uma campanha militar e impulsionar a sua economia com os novos recursos.",
+          "ideological_profile": "Nacionalismo desenvolvimentista, com forte controle estatal sobre recursos estratégicos.", "historical_context": { "colonizer_colonized_roles": "Nação que resistiu à colonização e se unificou através de conflitos regionais.", "cultural_depth": "milenares", "key_turning_points": ["Guerras de unificação", "Nacionalização de recursos", "Aliança estratégica com Potência Alfa", "Modernização militar acelerada."]}, "internal_context": { "economy_status": "recessão", "nationalism_trend": "alto", "democratic_institutions_health": "frágeis", "regime_type": "híbrido"}, "capabilities": { "human_mobilization": "alta", "drones": "avançado", "cyber": "limitado", "ballistic_missiles": "longo_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"}, "alliances": { "allies": ["Estado Beta", "Federação Épsilon"], "dependencies": "tecnologia", "red_lines": "Falha em assegurar o controle da zona de fronteira; retaliação massiva de Alfa."}, "starting_posture": "coercitivo", "nuclear_policy": { "status": "declarado", "doctrine": "ambígua", "threshold": 0.0 } },
+        { "name": "Estado Delta", "type": "potencia_regional", "objectives": "Atuar como um mediador honesto para alcançar um cessar-fogo e uma solução negociada, aumentando o seu prestígio diplomático e evitando uma guerra total que desestabilizaria as suas próprias fronteiras.",
+          "ideological_profile": "Populismo conservador com foco em desenvolvimento agrário.", "historical_context": { "colonizer_colonized_roles": "Ex-colônia agrária que sofreu com diversas intervenções estrangeiras.", "cultural_depth": "emergentes", "key_turning_points": ["Independência conturbada", "Guerra civil", "Estabelecimento de laços de dependência com Gama", "Crises econômicas recorrentes."]}, "internal_context": { "economy_status": "crescimento_fragil", "nationalism_trend": "médio", "democratic_institutions_health": "robustas", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "baixa", "drones": "limitado", "cyber": "limitado", "ballistic_missiles": "curto_alcance", "nuclear": "declarado", "ISR": "médio", "logistics_strength": "médio"}, "alliances": { "allies": [], "dependencies": "crédito, tecnologia", "red_lines": "Guerra total entre as duas coalizões; desestabilização de toda a região."}, "starting_posture": "conciliador", "nuclear_policy": { "status": "declarado", "doctrine": "no_first_use", "threshold": 0.0 } },
+        { "name": "Federação Épsilon", "type": "estado_intermediario", "objectives": "Participar nos exercícios conjuntos para sinalizar apoio à coligação, mas evitando qualquer envolvimento direto no conflito para não comprometer as suas relações económicas com a Potência Alfa.",
+          "ideological_profile": "Social-democracia, defensora do multilateralismo e de normas internacionais.", "historical_context": { "colonizer_colonized_roles": "Formada pela união voluntária de vários estados menores após um grande conflito continental.", "cultural_depth": "sincréticas", "key_turning_points": ["O Grande Conflito", "Ato de Federação", "Criação de um mercado comum", "Liderança na fundação de instituições globais."]}, "internal_context": { "economy_status": "estagnada", "nationalism_trend": "baixo", "democratic_institutions_health": "frágeis", "regime_type": "democracia"}, "capabilities": { "human_mobilization": "média", "drones": "limitado", "cyber": "nenhum", "ballistic_missiles": "nenhum", "nuclear": "nenhum", "ISR": "baixo", "logistics_strength": "baixo"}, "alliances": { "allies": ["República Gama", "Estado Beta"], "dependencies": "energia, tecnologia", "red_lines": "Ser forçada a um confronto direto com Alfa; abandono por parte de seus aliados."}, "starting_posture": "ambíguo", "nuclear_policy": { "status": "nenhum", "doctrine": "no_first_use", "threshold": 0.0 } }
+      ],
+      "triggers": ["Incidente entre patrulhas de fronteira resulta em captura de soldados de Alfa", "Publicação de mapas antigos por Gama que 'provam' sua soberania sobre a área", "Ataque cibernético paralisa as operações de mineração de Alfa na região."],
+      "theatres": ["Zona de fronteira do deserto (guerra de drones e forças especiais)", "Espaço orbital (guerra de satélites de ISR)", "Mercados de terras raras (guerra econômica)"],
+      "rules_of_engagement": "Conflito deve ser mantido em baixa intensidade. Ataques a centros populacionais são proibidos. A infraestrutura de mineração pode ser alvo, mas não destruída completamente. Atores externos não devem posicionar tropas de combate no terreno.",
+      "escalation_ladder": [
+        {"level":0,"description":"disputa retórica/sanções"},
+        {"level":1,"description":"escarmuças/zonas cinzentas"},
+        {"level":2,"description":"proxy intensificado/ataques cibernéticos significativos"},
+        {"level":3,"description":"mísseis convencionais limitados"},
+        {"level":4,"description":"ameaças e demonstrações nucleares"},
+        {"level":5,"description":"crise máxima multilateral"}
+      ],
+      "military_action_options": [
+        "convocação parcial de reservistas", "realização de exercícios militares dissuasórios", "reforço de guarnições de fronteira", "operações de reconhecimento persistente com drones", "interdição limitada de alvos com drones", "ativação de defesas antidrone", "intrusão em redes civis críticas", "derrubada temporária de redes de comunicação", "endurecimento de defesas cibernéticas", "lançamento de salvas de mísseis convencionais de precisão", "interdição de bases militares inimigas (alto nível)", "elevação do nível de prontidão nuclear", "realização de teste nuclear simbólico", "ameaça de emprego limitado de arma nuclear (sem detalhes)"
+      ],
+      "diplomatic_action_options": [
+        "propor cessar-fogo monitorado bilateralmente", "convocar comissões de limites territoriais", "oferecer troca de garantias de segurança", "impor sanções econômicas unilaterais ou com aliados", "reconhecer formalmente uma entidade separatista", "expulsar missões diplomáticas", "estabelecer canais de comunicação militar de emergência", "propor mediação por terceiros fora do Conselho Global"
+      ],
+      "global_council_action_options": [
+        "propor resolucao condenatoria contra um ator", "iniciar investigacao independente sobre um incidente", "apoiar sancoes multilaterais aprovadas pelo conselho", "propor novo tratado para criacao de normas internacionais", "financiar fundo de ajuda humanitaria supervisionado pelo conselho", "vetar resolucao do conselho", "abster-se de votacao no conselho"
+      ],
+      "proxy_involvement": "disputado",
+      "random_events": ["Tempestade de areia massiva interrompe operações militares por dias", "Vazamento de informações mostra que Beta incentivou o ataque de Gama", "Crise política interna em Delta paralisa sua capacidade de mediar."],
+      "metrics": {
+        "territorial_control": "0.0-1.0", "military_losses_index": "0.0-1.0", "economic_cost_index": "0.0-1.0", "civilian_harm_risk_index": "0.0-1.0", "diplomatic_isolation_index": "0.0-1.0", "cyber_infrastructure_uptime": "0.0-1.0", "escalation_score": "0.0-1.0"
+      },
+      "safety_notes": "Reforço de que o cenário não inclui instruções operacionais ou alvos e incentiva caminhos de desescalada."
+    }
+  ]
+}

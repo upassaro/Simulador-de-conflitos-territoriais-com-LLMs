@@ -1,0 +1,23 @@
+# requirements.txt
+
+# Core da simulação e LLMs
+langchain
+langchain-openai
+langchain-anthropic
+langchain-groq
+maritalk
+langchain-community
+langchain-huggingface
+langchain-deepseek
+langchain-xai
+pydantic
+python-dotenv
+
+# Para a análise de dados
+pandas
+jupyterlab
+
+# Para a base de conhecimento do Juiz (RAG)
+pypdf
+faiss-cpu
+sentence-transformers
